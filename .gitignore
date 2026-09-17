@@ -1,0 +1,16 @@
+# 68DIGITAL - Git Ignore Configuration
+
+# Dung lượng nặng & file lưu trữ cũ (~850MB) - KHÔNG đưa lên git/deploy
+_archive/
+assets/videos/
+
+# File tạm & hệ thống
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.cache/
+
+# IDE & Editor files
+.vscode/
+.idea/
